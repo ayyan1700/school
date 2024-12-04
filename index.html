@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+       .main{
+         background: rgb(78, 39, 218)linear-gradient(white,rgb(15, 6, 134));
+         background-blend-mode: multiply;
+         width: 100%;
+         height: 100vh;
+       }
+       .contain{
+        display: flex;
+
+       }
+       .contain>h1{
+        font-size: 3vw;
+        margin-left: 3.5vw;
+        margin-top: 2vw;
+        color:white;
+       }
+       .contain>a{
+        font-size: 1.3vw;
+        color: black;
+        text-decoration: none;
+        
+        border-radius: 2vw;
+        box-shadow: 0px 1px 10px rgb(94, 153, 153);
+         padding: 1vw;
+        margin-top: 2.2vw;
+       }
+       .contain>a:hover{
+                    color:rgb(208, 204, 223);
+                    transition: 0.5s;
+       }
+       .f{
+        margin-left: 23vw;
+       }
+       .t{
+        margin-left: 3vw;
+       }
+       .slider{
+        display: flex;
+        margin-top: 13vw;
+        margin-left: 1vw;
+       }
+       
+       .li>h1{
+          font-size: 3vw;
+          color: white;
+          margin-left: 3vw;
+       }
+       .li>h2{
+        font-size: 3vw;
+        color: white;
+        margin-left: 3vw;
+     }
+     .li>p{
+        font-size: 1.5vw;
+        margin-top: 1vw;
+        margin-bottom: 3VW;
+        margin-left: 3vw;
+        color: rgb(123, 184, 184);
+     }
+    
+     
+     .i{
+        background: rgb(122, 122, 226);
+        text-decoration: none;
+        font-size: 1vw;
+        margin-left: 3vw;
+        color: white;
+        padding: 1VW;
+      border-radius: 2vw;
+      border-bottom-left-radius: 0;
+       
+     }
+     
+     .u{
+        background: rgb(193, 77, 216);
+        text-decoration: none;
+        font-size: 1vw;
+        color: white;
+        padding: 1vw;
+        margin-left: 1vw;
+        border-radius: 2vw;
+        border-bottom-left-radius: 0;
+       
+      
+      
+     }
+     .li>a:hover{
+        border-radius: 2vw;
+        border-bottom-right-radius: 0;
+        transition: 0.7s;
+     }
+     .der>img{
+          margin-top: -9vw;
+          margin-left: 6vw;
+          width: 53vw;
+          opacity: 0.6;
+     }
+     .container{
+     
+        margin-top: 3vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 240px 240px;
+        gap: 2vw;
+
+     }
+    
+     .cont{
+        border: 1px solid;
+     }
+     .ain1{
+        border: 1px solid white;
+       grid-row: 1/3;
+       grid-column: 1/3;
+       
+     }
+     .ain1>h1{
+        font-size: 3vw;
+        margin-left: 5vw;
+        margin-top: 2vw;
+        color:  rgb(55, 0, 255);
+     }
+     .ain1>h2{
+        font-size: 3vw;
+        margin-left: 5vw;
+        margin-top: 1vw;
+       
+     }
+     .ain1>h6{
+        font-size: 1.5vw;
+        margin-left: 5vw;
+        margin-bottom: 3vw;
+        color:  rgb(55, 0, 255);
+        
+     }
+     .ain1>h3{
+        margin-top: 2vw;
+        font-size: 1.5vw;
+        margin-left: 5vw;
+        color:  rgb(55, 0, 255);
+       
+        
+     }
+        .ain1>h4{
+            font-size: 1.5vw;
+            margin-left: 5vw;
+            color:  rgb(55, 0, 255);
+            
+        }
+        .ain1>h5{
+            font-size: 1.5vw;
+            margin-left: 5vw;
+            color:  rgb(55, 0, 255);
+            
+        }
+        .d{
+            background: rgb(61, 43, 221);
+            text-decoration: none;
+            font-size: 1.2vw;
+            margin-left: 5vw;
+           border-radius: 2vw;   
+           border-bottom-left-radius: 0;      
+       
+            padding: 1vw;
+            color: white;
+        }
+        .d:hover{
+            border-radius: 2vw;
+            border-bottom-right-radius: 0;
+            transition: 0.7s;
+        }
+       
+        .ain2{
+           text-align: center;
+           margin-right: 2vw;
+           box-shadow: 0px 1px 10px black;
+
+        }
+        .ain2>i{
+            font-size: 3vw;
+            margin-top:2vw ;
+        }
+        .ain3>i{
+            font-size: 3vw;
+            margin-top:2vw ;
+        }
+        .ain4>i{
+            font-size: 3vw;
+            margin-top:2vw ;
+        }
+        .ain5>i{
+            font-size: 3vw;
+            margin-top:2vw ;
+        }
+        .ain6>i{
+            font-size: 3vw;
+            margin-top:2vw ;
+        }
+        .ain7>i{
+            font-size: 3vw;
+            margin-top:2vw ;
+            box-shadow: 0px 1px 10px black;
+        }
+        .ain3{
+            text-align: center;
+            margin-right: 2vw;
+            box-shadow: 0px 1px 10px black;
+        }
+        .ain4{
+            text-align: center;
+            margin-right: 2vw;
+            box-shadow: 0px 1px 10px black;
+        }
+        .ain5{
+            text-align: center;
+            margin-right: 2vw;
+            box-shadow: 0px 1px 10px black;
+        }
+        .ain6{
+            text-align: center;
+            margin-right: 2vw;
+            box-shadow: 0px 1px 10px black;
+        }
+        .ain7{
+            text-align: center;
+            margin-right: 2vw;
+            box-shadow: 0px 1px 10px black;
+        }
+        .ain2>h1{
+               margin-bottom: 2vw;
+               font-size: 2vw;
+        }
+        .ain3>h1{
+            margin-bottom: 2vw;
+            font-size: 2vw;
+        }
+        .ain4>h1{
+            margin-bottom: 2vw;
+            font-size: 2vw;
+        }
+        .ain5>h1{
+            margin-bottom: 2vw;
+            font-size: 2vw;
+        }
+        .ain6>h1{
+            margin-bottom: 2vw;
+            font-size: 2vw;
+        }
+        .ain7>h1{
+            margin-bottom: 2vw;
+            font-size: 2vw;
+        }
+        .ain2>p{
+           
+            font-size: 1.2vw;
+            color: rgb(55, 0, 255);
+     }
+     .ain3>p{
+         
+         font-size: 1.2vw;
+         color: rgb(55, 0, 255);
+     }
+     .ain4>p{
+         
+         font-size: 1.2vw;
+         color: rgb(55, 0, 255);
+     }
+     .ain5>p{
+         
+         font-size: 1.2vw;
+         color: rgb(55, 0, 255);
+     }
+     .ain6>p{
+         
+         font-size: 1.2vw;
+         color: rgb(55, 0, 255);
+     }
+     .ain7>p{
+         
+         font-size: 1.2vw;
+         color: rgb(55, 0, 255);
+     }
+        .ain2:hover{
+            background: rgb(130, 103, 228);
+            transition: 0.6s;
+           margin-left: 1vw;
+           margin-right: 0.5vw;
+           margin-top: -0.5vw;
+        }
+        .ain3:hover{
+            background: rgb(130, 103, 228);
+            transition: 0.6s;
+            margin-left: 1vw;
+            margin-right: 0.5vw;
+            margin-top: -0.5vw;
+        }
+        .ain4:hover{
+            background: rgb(130, 103, 228);
+            transition: 0.6s;
+            margin-left: 1vw;
+            margin-right: 0.5vw;
+            margin-top: -0.5vw;
+        }
+        .ain5:hover{
+            background: rgb(130, 103, 228);
+            transition: 0.6s;
+            margin-left: 1vw;
+            margin-right: 0.5vw;
+            margin-top: -0.5vw;
+        }
+        .ain6:hover{
+            background: rgb(130, 103, 228);
+            transition: 0.6s;
+            margin-left: 1vw;
+            margin-right: 0.5vw;
+            margin-top: -0.5vw;
+        }
+        .ain7:hover{
+            background: rgb(130, 103, 228);
+            transition: 0.6s;
+            margin-left: 1vw;
+            margin-right: 0.5vw;
+            margin-top: -0.5vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="contain">
+            <h1>unbrew.</h1>
+            <a class="f" href="">home</a>
+            <a class="t" href="">about us</a>
+            <a class="t"href="">service</a>
+            <a class="t"href="">pricing</a>
+            <a class="t"href="">work</a>
+            <a class="t"href="">blogs</a>
+            <a class="t"href="">contact us</a>
+        
+        </div>
+        
+        <div class="slider">
+            <div class="li">
+            <h1>Lorem ipsumgtyrr </h1>
+            <h2>Lorem ipsu</h2>
+            <p>Lorem ipsum dolor sit amet cing aceat sint nihila <br>repellai qui facere temporibus placeat!</p>
+            <a class="i" href="">start a project</a>
+            <a class="u" href="">contact info</a>
+        </div>
+
+            <div class="der">
+                  <img src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17-1024x615.jpg">
+            </div>
+        </div>
+    </div>
+      <div class="container">
+
+           <div class="cont ain1">
+            <h1>our service</h1>
+            <h2>we provide a lot of cool<br> service</h2>
+            <h3>Lorem, ipsum dolor sit amet <br>consectetur adipisicing elit.</h3>
+            <h4>Lorem, ipsum dolor sit<br> amet cofsdfsdfcing elit.</h4>
+            <h5>Lorem, ipsum dolor sit amet <br>consectetur adipisicing elit.</h5>
+            <h6>ocean</h6>
+            <a class="d" href="">our service</a>
+        </div>
+           <div class="cont ain2">
+
+            <i class="fa-solid fa-font-awesome"></i>
+            <h1>Lorem dolor.</h1>
+            <p>Lorem ipsum dolor sit<br> amet consectetur adipisicing elit.<br> Perspiciatis, recusandae?</p>
+        </div>
+           <div class="cont ain3">
+
+            <i class="fa-solid fa-icons"></i>
+            <h1>Lorem dolor.</h1>
+            <p>Lorem ipsum dolor sit<br> amet consectetur adipisicing elit.<br> Perspiciatis, recusandae?</p></div>
+           <div class="cont ain4">
+            
+            <i class="fa-brands fa-fonticons-fi"></i>
+            <h1>Lorem dolor.</h1>
+            <p>Lorem ipsum dolor sit<br> amet consectetur adipisicing elit.<br> Perspiciatis, recusandae?</p></div>
+           <div class="cont ain5">
+            
+            <i class="fa-brands fa-r-project"></i>
+            <h1>Lorem dolor.</h1>
+            <p>Lorem ipsum dolor sit<br> amet consectetur adipisicing elit.<br> Perspiciatis, recusandae?</p></div>
+           <div class="cont ain6">
+            
+            <i class="fa-solid fa-list-check"></i>
+            <h1>Lorem dolor.</h1>
+            <p>Lorem ipsum dolor sit<br> amet consectetur adipisicing elit.<br> Perspiciatis, recusandae?</p></div>
+           <div class="cont ain7">
+            
+            <i class="fa-regular fa-map"></i>
+            <h1>Lorem dolor.</h1>
+            <p>Lorem ipsum dolor sit<br> amet consectetur adipisicing elit.<br> Perspiciatis, recusandae?</p></div>
+      </div>
+</body>
+</html>
